@@ -1,0 +1,9 @@
+aws_region               = "ap-south-1"
+environment              = "dev"
+cluster_name             = "poc-eks"
+node_group_instance_type = "t3.medium"
+node_group_desired_capacity = 2
+db_engine_version        = "15.14"
+db_allocated_storage     = 20
+db_username              = "admin"
+enable_ecr               = true
